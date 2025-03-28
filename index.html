@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Success Page</title>
+    <link rel="stylesheet" href="styles1.css">
+    <script src="https://kit.fontawesome.com/YOUR_KIT_CODE.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">ANASTASIA CHIKVINIDZE<br><span>Interior Designer</span></div>
+        <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
+        <nav>
+            <ul>
+                <li><a href="index2.html">About</a></li>
+                <li><a href="index4.html">Our Work</a></li>
+                <li><a href="index3.html">Contact</a></li>
+                <li><a href="index3.html"><i class="fas fa-user-circle"></i> Log In</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="overlay">
+            <h3>AMBITION IS THE FIRST STEP TOWARDS</h3>
+            <h1><span span="letter-spacing:20px;" class="wixui-rich-text__text">ANASTASIARO</span></h1>
+            <p>Now Available for Online Shopping</p>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+    </section>
+    <script>
+        function toggleMenu() {
+            document.querySelector('nav ul').classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
